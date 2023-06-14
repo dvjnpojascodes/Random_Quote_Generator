@@ -7,7 +7,7 @@ body {
   }
   
   .container {
-    max-width: 600px;
+    max-width: 800px;
     margin: 100px auto;
     padding: 20px;
     background-color: #ffffff;
@@ -34,6 +34,39 @@ body {
   }
   
   #new-quote-btn:hover {
+    background-color: #45a049;
+  }
+  
+
+  #contribute-container {
+    margin-top: 30px;
+    text-align: left;
+  }
+  
+  #contribute-container h2 {
+    margin-top: 0;
+  }
+  
+  #contribute-container input[type="text"] {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 50px 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  
+  #contribute-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #contribute-container button:hover {
     background-color: #45a049;
   }
   
