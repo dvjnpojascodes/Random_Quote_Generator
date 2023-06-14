@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: #deeab2;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -10,20 +10,26 @@ body {
     max-width: 600px;
     margin: 100px auto;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #f2f5c5;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
-  h1 {
-    margin-top: 0;
+  .quote-container h1 {
+    margin: 0 0 20px;
   }
   
   .quote-container {
     margin-bottom: 20px;
+    text-align: center;
   }
-  
+
+  #quote-display {
+    margin-bottom: 20px;
+  }
+
   #new-quote-btn {
+    margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
     background-color: #4CAF50;
@@ -34,6 +40,41 @@ body {
   }
   
   #new-quote-btn:hover {
+    background-color: #45a049;
+  }
+  
+
+  .contribute-container {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+  }
+  
+  .contribute-container h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .contribute-container input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+
+  
+  .contribute-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contribute-container button:hover {
     background-color: #45a049;
   }
   

@@ -5,14 +5,33 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <div class="container">
-    <h1>Random Quote Generator</h1>
-    <div class="quote-container">
-      <p id="quote"></p>
-      <p id="author"></p>
-    </div>
-    <button id="new-quote-btn">New Quote</button>
-  </div>
+    <div class="container">
+        <div class="quote-container">
+          <h1>Random Quote Generator</h1>
+          <div id="quote-display">
+            <p id="quote"></p>
+            <p id="author"></p>
+            <div id="category-container">
+              <label for="category">Select Category:</label>
+              <select id="category">
+                <option value="All">All</option>
+                <option value="Inspiration">Inspiration</option>
+                <option value="Motivation">Motivation</option>
+                <!-- Add more category options based on your quotes -->
+              </select>
+            </div>
+            <button id="new-quote-btn">New Quote</button>
+          </div>
+        </div>
+      
+        <div class="contribute-container">
+          <h2>Contribute Your Quote</h2>
+          <input type="text" id="new-quote" placeholder="Enter your quote" required>
+          <input type="text" id="new-author" placeholder="Enter author name" required>
+          <button id="submit-btn">Submit Quote</button>
+        </div>
+      </div>
+      
 
   <script src="script.js"></script>
 </body>
