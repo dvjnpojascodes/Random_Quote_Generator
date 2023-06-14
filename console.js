@@ -12,3 +12,5 @@ const max = 10;
 const randomNumber = getRandomNumber(min, max);
 console.log(randomNumber);
 
+console.log ("printed random number")
+
