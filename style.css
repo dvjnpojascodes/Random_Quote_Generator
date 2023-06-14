@@ -7,23 +7,29 @@ body {
   }
   
   .container {
-    max-width: 800px;
+    max-width: 600px;
     margin: 100px auto;
     padding: 20px;
-    background-color: #ffffff;
+    background-color: #f2f5c5;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
   
-  h1 {
-    margin-top: 0;
+  .quote-container h1 {
+    margin: 0 0 20px;
   }
   
   .quote-container {
     margin-bottom: 20px;
+    text-align: center;
   }
-  
+
+  #quote-display {
+    margin-bottom: 20px;
+  }
+
   #new-quote-btn {
+    margin-top: 20px;
     padding: 10px 20px;
     font-size: 16px;
     background-color: #4CAF50;
@@ -38,25 +44,27 @@ body {
   }
   
 
-  #contribute-container {
-    margin-top: 30px;
-    text-align: left;
+  .contribute-container {
+    text-align: center;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
   }
   
-  #contribute-container h2 {
+  .contribute-container h2 {
     margin-top: 0;
+    margin-bottom: 20px;
   }
   
-  #contribute-container input[type="text"] {
-    width: 95%;
+  .contribute-container input[type="text"] {
+    width: 90%;
     padding: 10px;
-    margin: 10px 50px 10px 0;
+    margin-bottom: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
   }
 
   
-  #contribute-container button {
+  .contribute-container button {
     padding: 10px 20px;
     font-size: 16px;
     background-color: #4CAF50;
@@ -66,7 +74,7 @@ body {
     cursor: pointer;
   }
   
-  #contribute-container button:hover {
+  .contribute-container button:hover {
     background-color: #45a049;
   }
   
